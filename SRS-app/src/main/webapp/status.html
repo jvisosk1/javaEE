@@ -1,0 +1,41 @@
+<html>
+	<style type="text/css">
+		h1,h2,h3{
+			text-align: center;
+		}
+	</style>
+	<head>
+      <meta charset="UTF-8">
+      <title>Course Status</title>
+    </head>
+   <body>
+   	<div style="background-color:#4863A0; width:600px; height: 360px; padding:20px">
+   		<h2>Student Registration Site</h2>
+   		<h1 style="color: white">Registration Status Report</h1>
+   		<h3>Check any of the following course(s) and click on 'Submit':</h3>
+		<div style="background-color:lightgrey; width:300px; height: 120px; padding:20px; margin-left: 140px">
+			<form action = "ejbclient" method = "POST">
+				<input type="checkbox" name="cloud" value="605.635">
+				<label>605.635 Database Systems</label><br>
+
+				<input type="checkbox" name="db" value="605.641">
+				<label>605.641 Cloud Computing </label><br>
+
+				<input type="checkbox" name="agile" value="605.684">
+				<label>605.684 Agile Development</label><br>
+
+				<input type="checkbox" name="largeDB" value="605.741">
+				<label>605.741 Large Scale Database Systems</label><br>
+
+				<input type="checkbox" name="javaEE" value="605.784">
+				<label>605.784 Enterprise Java</label><br>
+
+				<input type="checkbox" name="hadoop" value="605.788">
+				<label>605.788 Big Data Processing Hadoop </label><br><br><br>
+
+				<input style="margin-left: 120px" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+   	</body>
+</html>
