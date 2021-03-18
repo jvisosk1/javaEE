@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany</groupId>
-  <artifactId>table-per-subclass</artifactId>
+  <artifactId>table-per-concrete-class</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>table-per-subclass</name>
+  <name>table-per-concrete-class</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -64,7 +64,7 @@
             </execution>
           </executions>
           <configuration>
-            <mainClass>com.mycompany.SingleTableInhrExample</mainClass>
+            <mainClass>com.mycompany.TablePerConcreteClass</mainClass>
           </configuration>
         </plugin>
 

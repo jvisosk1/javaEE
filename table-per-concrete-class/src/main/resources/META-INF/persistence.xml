@@ -23,7 +23,7 @@ mvn clean install package exec:java -Dexec:mainClass=SingleTableInhrExample
 <!--       <property name="hibernate.connection.url" value="jdbc:h2:~/784/db_single_table;DB_CLOSE_DELAY=-1"/>
  -->      
       <property name="hibernate.connection.url" 
-            value="jdbc:h2:tcp://localhost/~/784/db_table_per_subclass1;DB_CLOSE_ON_EXIT=FALSE"/>
+            value="jdbc:h2:tcp://localhost/~/784/db_table_per_concrete_class;DB_CLOSE_ON_EXIT=FALSE"/>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
       <property name="hibernate.hbm2ddl.auto" value="create" />

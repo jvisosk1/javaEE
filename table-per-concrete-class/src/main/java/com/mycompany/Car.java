@@ -16,7 +16,7 @@ public abstract class Car {
     private int year;    
 
     public int getIdCar() {
-        {return carId;
+        return carId;
     }
     public void setIdCar(int carId) {
         this.carId = carId;
